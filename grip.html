@@ -1,0 +1,161 @@
+<!-- <style>
+    .container{
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        height: 300px;
+        width: 300px;
+        
+
+    }
+    .header{
+        background-color: aqua;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .middle{
+        background-color: antiquewhite;
+        padding: 5px;
+    }
+    .footer{
+        background-color: darkkhaki;
+        padding: 5px;
+    }
+    .top{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        
+    }
+    .main-container{
+        background-color: green;
+        height: 100px;
+        margin: 2px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .sidebar{
+        background-color: blueviolet;
+        margin: 2px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .one{
+        background-color: pink;
+        margin:2px;
+        height: 100px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<div class="container">
+    <div class="header">Header</div>
+    <div class="middle">
+        <div class="top">
+            <div class="main-container">main-container</div>
+            <div class="sidebar">sidebar</div>
+        </div>
+        <div class="bottom">
+            <div class="one">Twin</div>
+            <div class="one">Twin</div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+
+</div> -->
+<style>
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: rgba(0, 255, 255, 0.184);
+        height: 300px;
+        width: 350px;
+    }
+
+    .header {
+        display: grid;
+        background-color: lightgreen;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .footer {
+        display: grid;
+        background-color: lightgreen;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin: 5px;
+    }
+    .aside{
+        display: grid;
+        background-color: cadetblue;
+        justify-content: center;
+        align-items: center;
+    }
+    .bside{
+        background-color: orange;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    .art{
+        height: 100px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    .one{
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+    }
+</style>
+<div>
+
+<div class="container">
+    <div class="header">Header</div>
+
+    <div class="middle">
+        <div class="aside">Aside</div>
+        <div>
+            <div class="bside">
+                <div class="art">
+                    Article
+                </div>
+                <div class="bottom">
+                    <div class="one">Image</div>
+                    <div class="one">Image</div>
+                    <div class="one">Image</div>
+                </div>
+           
+        </div>
+    </div>
+</div>
+
+    <div class="footer">Footer</div>
+
+</div>
